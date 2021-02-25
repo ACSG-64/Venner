@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  font-family: 'Open Sans';
+}
+
+html, body{
+  height: 100%;  
+}
+
+/* HEADER */
+header{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8.3%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  z-index:5;  
+
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0.7539390756302521) 0%, rgba(0,0,0,0) 100%);
+
+  transition:all 250ms ease;
+}
+
+header img{
+  height: 73%;
+  margin-left: 2%;
+}
+
+header ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  text-align: center;
+  list-style-type: none;  
+
+  font-size: 1.1em;
+}
+
+header ul li{
+  color: white;
+  width: 40%;
+  padding: 1%;
+  margin: 0% 1%;
+}
+
+.sticky-menu{
+  background: rgb(38,38,38)
+}
+
+/* MAIN SCREEN */
+
+#main-section{
+  position: relative;
+  height: 100%;
+  background-image: url("/images/background.jpg");  
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+
+#main-content{
+  position: absolute;  
+  z-index: 1;
+  color:white;  
+
+  width: 54%;
+  height: 100%;
+
+  margin-left: 4.5%;
+
+  display: flex;
+  align-items: center;
+}
+
+#main-content h1{
+  font-size: 4.3em;
+  line-height: 1em; 
+  font-weight: 800;
+}
+
+#main-content p{
+  font-size: 1.8em;
+}
+
+.filter{
+  position: absolute;
+  height: 100%;
+  width: 100%;  
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.5) 58%, rgba(0,0,0,0) 100%);
+}
+
+#business-owner-man{
+  position: absolute;
+  height: 82.5%;
+  bottom: 0;
+  right: 0;
+  animation-name: man-entreance;
+  animation-duration: 3s;
+}
+
+@keyframes man-entreance{
+  0% {right: -10%; opacity: 0;}
+  100% {right: 0; opacity: 1;}
+}
+
+
+#overview{  
+
+  padding: 5% 7%;  
+
+  background-color: rgb(250, 250, 250);
+
+  background: url("/images/overview_background1.png"), url("/images/city-background-light.png");
+  background-position: bottom right, bottom;
+  background-size: contain;
+  background-repeat: no-repeat;     
+  background-attachment: fixed, scroll;
+}
+
+#overview-content{
+
+  padding: 3.5% 2%;
+
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#overview-content iframe{
+
+  height: 45vh;
+  width: 40vw;
+}
+
+#overview .description{
+  width: 50%;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+
+#features .feature{
+  height: 40vh;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0% 2%;
+}
+
+#features .feature .img_left{
+  height: 100%;
+  order:1;
+}
+
+#features .feature .img_right{
+  height: 100%;
+  order:2;
+}
+
+#features .feature div{
+  width: 58%;
+  font-size: 1.1em;
+  order:1;
+}
+
+#contact #social-networks{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+} 
+
+#contact #social-networks img{
+  height: 5vw;
+  border-radius: 50%;
+  margin: 0 10%;
+} 
+
+
+@media only screen and (max-width: 770px) {
+
+  #main-content{
+
+    width: 100%;
+    height: 100%;
+
+    padding: 1%;
+
+    margin: 0;
+  }
+
+  #business-owner-man{
+    display: none;
+  }
+
+  #features .feature{
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    padding: 5%;
+  }
+
+  #features .feature .img_right{
+    height: 40vh;
+    order:1;
+  }
+
+  #features .feature .img_left{
+    height: 40vh;
+    order:1;
+  }
+
+  #features .feature div{
+    width: 100%;
+    font-size: 1.1em;
+    order:2;
+  }
+
+}
+

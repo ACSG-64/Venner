@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Venner</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>  
+
+    <header id="nav-bar">
+      <img src="/images/venner-logo.png">
+      <ul>
+        <li>Overview</li>
+        <li>Features</li>
+        <li>About</a></li>
+        <li>About</a></li>
+        <li style="border-radius: 100px; background-color: white; color: black;">Access</li>
+      </ul>
+    </header>
+
+    <section id="main-section">
+      <div id="main-content">
+        <div>
+          <img src="images/venner-logo-black.png">
+          <hr>
+          <h2>Login</h2>
+          <form action="/action_page.php">          
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="example64"><br>
+            <label for="fname">First name:</label><br>
+            <input type="email" id="fname" name="fname" placeholder="youremail@provider.com"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="password" id="lname" name="lname" placeholder="********"><br>
+            <input type="submit" value="Login">
+          </form> 
+          <p><i> Dont have account? register.</i></p>
+        </div>
+      </div>
+
+      <div class="filter"><div>
+      
+    </section>
+
+    <script>
+      
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("nav-bar");
+
+      function myFunction() {
+        if (window.pageYOffset >= 1) {
+          navbar.classList.add("sticky-menu")
+        } else {
+          navbar.classList.remove("sticky-menu");
+        }
+      }
+
+    </script>
+
+    
+  </body>
+</html>

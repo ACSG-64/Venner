@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Venner - Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+    
+  </head>
+
+  <body>  
+
+    <header id="nav-bar">
+      <img src="/images/venner-logo.png">
+      <ul>
+        <li>Queries per month: 1/15</li>
+        <li style="border-radius: 100px; background-color: white; color: black;">andersen-64</li>
+      </ul>
+    </header> 
+
+    <section id="file-collection">
+      <div class="header">
+        <h2>Stored reports</h2>
+        <p>Generating 3 documents...</p>
+        <div style="display: flex; align-items: center;">
+          <h3 style="float:left">Save current report </h3>
+          <img src="/images/add_button.png" style="height: 1.5em">              
+        </div>
+      </div>
+
+      <div id="carusell">
+
+        
+
+        <div class="file">
+          <div class="inner">
+            <div class="front">
+              <div class="file-title">
+                <p><strong>New York</strong>, Maryland, US</p>
+                <p style="font-size:0.85em">Report: <i>14/12/2020</i></p>
+              </div>
+            </div>
+
+            <div class="back">
+              <strong>New York</strong>
+              <p>Maryland, US</p>
+              <p style="font-size:0.85em">From: <i>14/12/2020</i></p>
+              <p style="font-size:0.85em">Until: <i>14/12/2020</i></p>
+
+              <p style="text-align: center;"> <a style="background-color:red">Open</a> </p>
+              <a><p style="width: 100%; background-color: red;">Delete</p> </a>
+              
+            </div>
+          </div>
+        </div>  
+
+        
+        
+        
+      </div>
+    </section>
+    <hr>
+
+    <section id="query-results">
+      <div id="selectors">
+        
+        <form action="/action_page.php">
+
+          <h2>New query</h2>
+
+          <select name="countries" id="countries">
+            <option selected disabled>Country</option>
+            <optgroup label="Africa">
+              <option value="United States">South Africa</option>
+              <option value="saab">Ecuatorial Guinea</option>
+              <option value="saab">Ghana</option>
+              <option value="saab">Malawi</option>
+              <option value="saab">Madagascar</option>
+              <option value="saab">...</option>
+            </optgroup>
+            <optgroup label="America">
+              <option value="CA">Canada</option>
+              <option value="US">United States</option>
+              <option value="US">Colombia</option>
+              <option value="US">Chile</option>
+              <option value="US">Brazil</option>
+              <option value="saab">...</option>
+            </optgroup>
+            <optgroup label="Asia">
+              <option value="mercedes">Japan</option>
+              <option value="audi">Malasia</option>
+              <option value="audi">Taiwan</option>
+              <option value="audi">Mongolia</option>
+              <option value="audi">Laos</option>
+              <option value="saab">...</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="mercedes">France</option>
+              <option value="audi">Germany</option>
+              <option value="audi">Italy</option>   
+              <option value="audi">Portugal</option>
+              <option value="audi">Spain</option>
+              <option value="saab">...</option>
+            </optgroup>
+            <optgroup label="Oceania">
+              <option value="mercedes">Australia</option>
+              <option value="audi">New Zeland</option>
+              <option value="saab">...</option>
+            </optgroup>
+          </select>
+
+          <select name="state" id="state">
+            <option selected disabled>Country subdivision</option>
+            <option value="volvo">New York</option>
+            <option value="saab">Washington D.C.</option>
+            <option value="saab">Austin</option>
+            <option value="saab">Baton Rouge</option>
+            <option value="saab">Lincoln</option>
+        </select>
+
+          <select name="city" id="city">
+            <option selected disabled>City</option>
+            <option value="volvo">New York</option>
+            <option value="saab">Washington D.C.</option>
+            <option value="saab">Austin</option>
+            <option value="saab">Baton Rouge</option>
+            <option value="saab">Lincoln</option>
+        </select>
+
+        <select name="borouhg" id="borouhg">
+            <option selected disabled>City subdivision</option>
+            <option value="volvo">New York</option>
+            <option value="saab">Washington D.C.</option>
+            <option value="saab">Austin</option>
+            <option value="saab">Baton Rouge</option>
+            <option value="saab">Lincoln</option>
+        </select>
+
+          <input type="submit" value="Search ➔">
+        </form>
+      </div>
+
+      <div id="results">
+        <img src="/images/undraw_detailed_analysis_xn7y.png">
+      </div>
+
+    </section>  
+
+  </body>
+</html>
