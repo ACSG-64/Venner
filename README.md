@@ -1,4 +1,4 @@
-# Data generator component - Venner
+# Data generator component - _Part of Reports Microservice_ - Venner
 Transforms cluster data into PDF reports for easy saving by the user.
 
 ## Tasks
