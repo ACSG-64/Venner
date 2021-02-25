@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Data generator component - Venner
 Transforms cluster data into PDF reports for easy saving by the user.
 
