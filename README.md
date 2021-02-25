@@ -1,34 +1,19 @@
-<<<<<<< HEAD
-# Data generator component - Venner
-This component is in charge of exploring the places of a particular location using the Foursqare API and converting them into data to be stored in Mongo DB.
+# Entry Server - Venner
+It is responsible for authorization and authentication procedures. It handles all frontend requests and collects the required data from the microservices to the client.
 
 ## Tasks
-* Explore the most common places in a given location.
-* Extract the top 10 most common types of places by neighborhoods.
-* Segment the information obtained from the previous point into similar groups by applying the K-means clustering algorithm.
-* Establish the geographic information of each place found in the point that belong to the top 10 most common types of places by neighborhoods.
+* User registration and login.
+* Handle user requests and request data from microservices.
 
 ## Communication
-* It receives the command to generate the information by dispatching messages from a RabbitMQ queue containing the name of the place.
-* It queries the basic geographic location of the place in the database to start its task.
-* Since it cannot write to the database, it posts a message to a RabbitMQ coda with the data generated and formatted to be added to the database by another component.
+* Stores the data from the microservice data provider in a cache to reduce the number of HTTP queries.
+* It does not publish any messages to RabbitMQ, it is only notified when the microservice data provider generated data that was requested.
+* Communication with the client is by HTTP requests.
 
 ## Technologies
-* Python 3.
-  * Pandas.
-  * Scikit-learn.
-* Foursquare API.
+* Node.js.
+  * Express. 
+* Json Web Tokens.
 * Mongo DB (Atlas).
+* Redis.
 * RabbitMQ.
-=======
-# Venner
-Venner is a web app that provides strategic information to users about the most common venues in a particular location.
-
-##  Technologies
-* Node.js
-* Mongo DB (Atlas)
-* Reddis (Redis labs)
-* RabbitMQ
-* JWT 
-
->>>>>>> be4edb6c8081ee1ed0ea875bec2aea7e63c96ec5
