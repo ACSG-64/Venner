@@ -1,6 +1,17 @@
 # Venner
 Venner is a web app that provides strategic information to users about the most common venues in a particular location.
 
+## Back-end Structure
+### Main backend
+* Entry server
+### Data provider Microservice
+* Data provider component
+* Data generator component
+### Reports provider Microservice
+* Reports provider component
+* Reports generator component
+
+
 ##  Contributor warning.
 This project contains several branches, please note the following conventions:
 * **DEV**: to develop each component.
