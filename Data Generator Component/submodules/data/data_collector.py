@@ -1,13 +1,14 @@
+import os
 import requests
 import pandas as pd
 from submodules.data.db import query
 from submodules.data.input_validation import clean_data
 
 foursquare = {
-  "FS_id": '0NOU40DHBQFZOAIRE2CLKNUGNYKIKQAPLEXA322W1LWVT2BY',
-  "FS_secret": '0LU1TEXV5QCKL2DLQCSQB5DW4AWSYNYX4ENHOMBCOGQ1UD4F', 
+  "FS_id": os.getenv("FOURSQUARE_ID"),
+  "FS_secret": os.getenv("FOURSQUARE_SECRET"), 
   "FS_version": '20180605',
-  "FS_limit": 3 
+  "FS_limit": 100
 }
 
 def results_to_dataframe(results):

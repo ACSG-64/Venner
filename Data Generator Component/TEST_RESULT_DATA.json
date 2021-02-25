@@ -1,0 +1,256 @@
+{
+  "creation-date": "",
+  "expiration-date": "",
+  "country": "US",
+  "state": "District of Columbia",
+  "city": "Washington D.C.",
+  "borough": "Ward 8",
+  "clusters": [
+    [
+      {
+        "Neighborhood": "Barry Farm",
+        "1st Most Common Venue": "Bus Stop",
+        "2nd Most Common Venue": "Basketball Court",
+        "3rd Most Common Venue": "Art Gallery",
+        "4th Most Common Venue": "Bank",
+        "5th Most Common Venue": "Caf\u00e9",
+        "6th Most Common Venue": "Coffee Shop",
+        "7th Most Common Venue": "Costume Shop",
+        "8th Most Common Venue": "Deli / Bodega",
+        "9th Most Common Venue": "Food Truck",
+        "10th Most Common Venue": "Fried Chicken Joint"
+      },
+      {
+        "Neighborhood": "Garfield Heights",
+        "1st Most Common Venue": "Art Gallery",
+        "2nd Most Common Venue": "Bus Stop",
+        "3rd Most Common Venue": "Museum",
+        "4th Most Common Venue": "Bank",
+        "5th Most Common Venue": "Basketball Court",
+        "6th Most Common Venue": "Caf\u00e9",
+        "7th Most Common Venue": "Coffee Shop",
+        "8th Most Common Venue": "Costume Shop",
+        "9th Most Common Venue": "Deli / Bodega",
+        "10th Most Common Venue": "Food Truck"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Washington Highlands",
+        "1st Most Common Venue": "Basketball Court",
+        "2nd Most Common Venue": "Costume Shop",
+        "3rd Most Common Venue": "Health & Beauty Service",
+        "4th Most Common Venue": "Art Gallery",
+        "5th Most Common Venue": "Bank",
+        "6th Most Common Venue": "Bus Stop",
+        "7th Most Common Venue": "Caf\u00e9",
+        "8th Most Common Venue": "Coffee Shop",
+        "9th Most Common Venue": "Deli / Bodega",
+        "10th Most Common Venue": "Food Truck"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Buena Vista",
+        "1st Most Common Venue": "Bank",
+        "2nd Most Common Venue": "Coffee Shop",
+        "3rd Most Common Venue": "Liquor Store",
+        "4th Most Common Venue": "Art Gallery",
+        "5th Most Common Venue": "Basketball Court",
+        "6th Most Common Venue": "Bus Stop",
+        "7th Most Common Venue": "Caf\u00e9",
+        "8th Most Common Venue": "Costume Shop",
+        "9th Most Common Venue": "Deli / Bodega",
+        "10th Most Common Venue": "Food Truck"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Bellevue",
+        "1st Most Common Venue": "Caf\u00e9",
+        "2nd Most Common Venue": "Coffee Shop",
+        "3rd Most Common Venue": "Food Truck",
+        "4th Most Common Venue": "Art Gallery",
+        "5th Most Common Venue": "Bank",
+        "6th Most Common Venue": "Basketball Court",
+        "7th Most Common Venue": "Bus Stop",
+        "8th Most Common Venue": "Costume Shop",
+        "9th Most Common Venue": "Deli / Bodega",
+        "10th Most Common Venue": "Fried Chicken Joint"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Congress Heights",
+        "1st Most Common Venue": "Deli / Bodega",
+        "2nd Most Common Venue": "Fried Chicken Joint",
+        "3rd Most Common Venue": "Intersection",
+        "4th Most Common Venue": "Art Gallery",
+        "5th Most Common Venue": "Bank",
+        "6th Most Common Venue": "Basketball Court",
+        "7th Most Common Venue": "Bus Stop",
+        "8th Most Common Venue": "Caf\u00e9",
+        "9th Most Common Venue": "Coffee Shop",
+        "10th Most Common Venue": "Costume Shop"
+      }
+    ]
+  ],
+  "maps": [
+    [
+      {
+        "Neighborhood": "Barry Farm",
+        "Venue": "Barry Farms Rec Center Courts",
+        "Venue Latitude": 38.8614090207,
+        "Venue Longitude": -76.9967999001,
+        "Venue Category": "Basketball Court",
+        "Color": "#b5cfb7"
+      },
+      {
+        "Neighborhood": "Barry Farm",
+        "Venue": "Anacostia Station Bus Bay M (W6,W8)",
+        "Venue Latitude": 38.8619625357,
+        "Venue Longitude": -76.9960405997,
+        "Venue Category": "Bus Stop",
+        "Color": "#a2db5"
+      },
+      {
+        "Neighborhood": "Barry Farm",
+        "Venue": "WMATA Bus Stop #1003273 (P6)",
+        "Venue Latitude": 38.8621108475,
+        "Venue Longitude": -76.9951744289,
+        "Venue Category": "Bus Stop",
+        "Color": "#a2db5"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Bellevue",
+        "Venue": "Fish Basket",
+        "Venue Latitude": 47.6466373136,
+        "Venue Longitude": -122.1426096872,
+        "Venue Category": "Food Truck",
+        "Color": "#79e474"
+      },
+      {
+        "Neighborhood": "Bellevue",
+        "Venue": "Starbucks",
+        "Venue Latitude": 47.6420007262,
+        "Venue Longitude": -122.1424052037,
+        "Venue Category": "Coffee Shop",
+        "Color": "#6f0b56"
+      },
+      {
+        "Neighborhood": "Bellevue",
+        "Venue": "Post Alley Caf\u00e9",
+        "Venue Latitude": 47.6445012079,
+        "Venue Longitude": -122.1376325432,
+        "Venue Category": "Caf\u00e9",
+        "Color": "#6607e3"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Buena Vista",
+        "Venue": "LAX Wine & Spirits",
+        "Venue Latitude": 38.8534589294,
+        "Venue Longitude": -76.964802108,
+        "Venue Category": "Liquor Store",
+        "Color": "#22a166"
+      },
+      {
+        "Neighborhood": "Buena Vista",
+        "Venue": "Starbucks",
+        "Venue Latitude": 38.8592786329,
+        "Venue Longitude": -76.9668011158,
+        "Venue Category": "Coffee Shop",
+        "Color": "#6f0b56"
+      },
+      {
+        "Neighborhood": "Buena Vista",
+        "Venue": "Capital One Bank",
+        "Venue Latitude": 38.859102,
+        "Venue Longitude": -76.966427,
+        "Venue Category": "Bank",
+        "Color": "#c24a63"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Congress Heights",
+        "Venue": "MLK Deli",
+        "Venue Latitude": 38.84356,
+        "Venue Longitude": -76.999808,
+        "Venue Category": "Deli / Bodega",
+        "Color": "#f447e8"
+      },
+      {
+        "Neighborhood": "Congress Heights",
+        "Venue": "Popeyes Louisiana Kitchen",
+        "Venue Latitude": 38.8448601884,
+        "Venue Longitude": -76.9971092916,
+        "Venue Category": "Fried Chicken Joint",
+        "Color": "#22a69f"
+      },
+      {
+        "Neighborhood": "Congress Heights",
+        "Venue": "Alabama and MLK Ave SE",
+        "Venue Latitude": 38.8431960434,
+        "Venue Longitude": -76.9987740591,
+        "Venue Category": "Intersection",
+        "Color": "#eacd07"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Garfield Heights",
+        "Venue": "Anacostia Community Museum",
+        "Venue Latitude": 38.8567284348,
+        "Venue Longitude": -76.9768992487,
+        "Venue Category": "Museum",
+        "Color": "#dd455a"
+      },
+      {
+        "Neighborhood": "Garfield Heights",
+        "Venue": "Wamata Bus Stop #1003035",
+        "Venue Latitude": 38.853741,
+        "Venue Longitude": -76.970322,
+        "Venue Category": "Bus Stop",
+        "Color": "#a2db5"
+      },
+      {
+        "Neighborhood": "Garfield Heights",
+        "Venue": "Anacostia Art Gallery & Boutique",
+        "Venue Latitude": 38.856265,
+        "Venue Longitude": -76.975281,
+        "Venue Category": "Art Gallery",
+        "Color": "#e5e043"
+      }
+    ],
+    [
+      {
+        "Neighborhood": "Washington Highlands",
+        "Venue": "Ferebee Hope Recreation Center",
+        "Venue Latitude": 38.832526,
+        "Venue Longitude": -76.995676,
+        "Venue Category": "Basketball Court",
+        "Color": "#b5cfb7"
+      },
+      {
+        "Neighborhood": "Washington Highlands",
+        "Venue": "SouthSide Wardrobe Studio",
+        "Venue Latitude": 38.8356326651,
+        "Venue Longitude": -76.9943323571,
+        "Venue Category": "Costume Shop",
+        "Color": "#2e44c0"
+      },
+      {
+        "Neighborhood": "Washington Highlands",
+        "Venue": "Nanou Hair Braiding",
+        "Venue Latitude": 38.8286283,
+        "Venue Longitude": -76.9917468,
+        "Venue Category": "Health & Beauty Service",
+        "Color": "#b4b11a"
+      }
+    ]
+  ]
+}
