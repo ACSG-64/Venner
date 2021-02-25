@@ -19,6 +19,25 @@ If you'd like to save your findings, you can store them as reports in separate P
 ### Plan or complement your strategy.
 Equipped with this valuable information you will be able to complement your business strategy and decide what the next steps will be to achieve success. With the information provided you will be able to clear up several of your doubts and move forward.
 
+## Main technologies
+### Back-end
+* Node.js
+  * Express. 
+* Python
+  * Pandas.
+  * Scikit learn.
+  * XHtml2PDF
+### Front-end
+* HTML5
+* CSS
+* Vue.js
+### Databases
+* MongoDB
+* Redis
+### Communication
+* HTTP
+* RabbitMQ (AMQP)
+
 ## Back-end Structure
 ### Main backend
 * Entry server
