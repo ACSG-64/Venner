@@ -5,10 +5,10 @@ It is created in Vue.js.
 * Main page.
 * Auth page.
 * Dashboard.
- * Reports section.
- * Data section.
-  * Map.
-  * Clusters.
+  * Reports section.
+  * Data section:
+   * _Map_.
+   * _Clusters_.
 ## Technologies
 * HTML 5.
 * CSS.
