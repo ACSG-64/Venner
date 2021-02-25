@@ -3,6 +3,8 @@ Venner is a web application that aims to provide strategic and valuable informat
 
 *Questions such as: are there many competitors where I want to open my business? are existing businesses complementary to my business idea? are businesses like mine popular in a certain location? among many others can be solved with Venner.*
 
+## IMPORTANT: CHECK THE BRANCHES TO CHECK THE WORK IN PROGRESS
+
 ## Venner features
 ### Discover the most popular businesses in your city's neighborhoods.
 Easily explore each boroughs of your city or many others around the world and discover which are the most popular businesses in each neighborhood.
