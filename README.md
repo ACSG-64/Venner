@@ -1,9 +1,9 @@
-# Venner
+# Venner _(Microservices-based web app project)_ - IBM SkillsBuild & CodeDoor project capstone
 Venner is a web application that aims to provide strategic and valuable information to all those entrepreneurs about the most popular businesses in the neighborhoods of the city where they want to open a business, a local, a branch, etc. so they can make the best decisions based on the data provided by the application.
 
 *Questions such as: are there many competitors where I want to open my business? are existing businesses complementary to my business idea? are businesses like mine popular in a certain location? among many others can be solved with Venner.*
 
-## IMPORTANT: CHECK THE BRANCHES TO CHECK THE WORK IN PROGRESS
+## IMPORTANT: CHECK THE BRANCHES TO AUDIT THE DEVELOPMENT OF THE PROJECT. 
 
 ## Venner features
 ### Discover the most popular businesses in your city's neighborhoods.
